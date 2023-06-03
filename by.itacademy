@@ -1,0 +1,6 @@
+2023-06-03T16:49:00.439+03:00  INFO 14081 --- [main] by.itacademy.spring.ApplicationRunner    : Starting ApplicationRunner using Java 17.0.6 with PID 14081 (/Users/nazar/IdeaProjects/spring-boot-hw/build/classes/java/main started by nazar in /Users/nazar/IdeaProjects/spring-boot-hw)
+2023-06-03T16:49:00.443+03:00  INFO 14081 --- [main] by.itacademy.spring.ApplicationRunner    : No active profile set, falling back to 1 default profile: "default"
+2023-06-03T16:49:00.928+03:00  INFO 14081 --- [main] b.i.spring.database.pool.ConnectionPool  : Init pool
+2023-06-03T16:49:00.932+03:00  INFO 14081 --- [main] b.i.spring.database.pool.ConnectionPool  : Init pool
+2023-06-03T16:49:00.933+03:00  INFO 14081 --- [main] b.i.spring.database.pool.ConnectionPool  : Init pool
+2023-06-03T16:49:01.006+03:00  INFO 14081 --- [main] by.itacademy.spring.ApplicationRunner    : Started ApplicationRunner in 1.375 seconds (process running for 2.214)
