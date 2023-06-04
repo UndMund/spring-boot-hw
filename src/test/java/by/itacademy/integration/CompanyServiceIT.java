@@ -16,7 +16,6 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 //@TestConstructor(autowireMode = TestConstructor.AutowireMode.ALL)
 public class CompanyServiceIT {
     private static final Integer COMPANY_ID = 1;
-
     private final CompanyService companyService;
     private final DatabaseProperties databaseProperties;
 

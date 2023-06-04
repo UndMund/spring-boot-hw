@@ -1,6 +1,137 @@
-2023-06-03T16:49:00.439+03:00  INFO 14081 --- [main] by.itacademy.spring.ApplicationRunner    : Starting ApplicationRunner using Java 17.0.6 with PID 14081 (/Users/nazar/IdeaProjects/spring-boot-hw/build/classes/java/main started by nazar in /Users/nazar/IdeaProjects/spring-boot-hw)
-2023-06-03T16:49:00.443+03:00  INFO 14081 --- [main] by.itacademy.spring.ApplicationRunner    : No active profile set, falling back to 1 default profile: "default"
-2023-06-03T16:49:00.928+03:00  INFO 14081 --- [main] b.i.spring.database.pool.ConnectionPool  : Init pool
-2023-06-03T16:49:00.932+03:00  INFO 14081 --- [main] b.i.spring.database.pool.ConnectionPool  : Init pool
-2023-06-03T16:49:00.933+03:00  INFO 14081 --- [main] b.i.spring.database.pool.ConnectionPool  : Init pool
-2023-06-03T16:49:01.006+03:00  INFO 14081 --- [main] by.itacademy.spring.ApplicationRunner    : Started ApplicationRunner in 1.375 seconds (process running for 2.214)
+2023-06-04T15:48:25.256+03:00  INFO 18629 --- [Test worker] by.itacademy.integration.UserServiceIT   : Starting UserServiceIT using Java 17.0.6 with PID 18629 (started by nazar in /Users/nazar/IdeaProjects/spring-boot-hw)
+2023-06-04T15:48:25.264+03:00  INFO 18629 --- [Test worker] by.itacademy.integration.UserServiceIT   : The following 1 profile is active: "test"
+2023-06-04T15:48:25.694+03:00  INFO 18629 --- [Test worker] b.i.spring.database.pool.ConnectionPool  : Init pool
+2023-06-04T15:48:26.498+03:00  INFO 18629 --- [Test worker] b.i.spring.database.pool.ConnectionPool  : Init pool
+2023-06-04T15:48:26.508+03:00  INFO 18629 --- [Test worker] b.i.spring.database.pool.ConnectionPool  : Init pool
+2023-06-04T15:48:26.517+03:00  WARN 18629 --- [Test worker] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'createUserMapper' defined in file [/Users/nazar/IdeaProjects/spring-boot-hw/build/classes/java/main/by/itacademy/spring/mapper/CreateUserMapper.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'by.itacademy.spring.dto.CreateUserDto' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-06-04T15:48:26.535+03:00  INFO 18629 --- [Test worker] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-06-04T15:48:26.566+03:00 ERROR 18629 --- [Test worker] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in by.itacademy.spring.mapper.CreateUserMapper required a bean of type 'by.itacademy.spring.dto.CreateUserDto' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'by.itacademy.spring.dto.CreateUserDto' in your configuration.
+
+2023-06-04T15:50:44.379+03:00  INFO 18667 --- [Test worker] by.itacademy.integration.UserServiceIT   : Starting UserServiceIT using Java 17.0.6 with PID 18667 (started by nazar in /Users/nazar/IdeaProjects/spring-boot-hw)
+2023-06-04T15:50:44.382+03:00  INFO 18667 --- [Test worker] by.itacademy.integration.UserServiceIT   : The following 1 profile is active: "test"
+2023-06-04T15:50:44.777+03:00  INFO 18667 --- [Test worker] b.i.spring.database.pool.ConnectionPool  : Init pool
+2023-06-04T15:50:45.527+03:00  INFO 18667 --- [Test worker] b.i.spring.database.pool.ConnectionPool  : Init pool
+2023-06-04T15:50:45.536+03:00  INFO 18667 --- [Test worker] b.i.spring.database.pool.ConnectionPool  : Init pool
+2023-06-04T15:50:45.544+03:00  WARN 18667 --- [Test worker] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'createUserMapper' defined in file [/Users/nazar/IdeaProjects/spring-boot-hw/build/classes/java/main/by/itacademy/spring/mapper/CreateUserMapper.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'by.itacademy.spring.dto.CreateUserDto' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-06-04T15:50:45.565+03:00  INFO 18667 --- [Test worker] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-06-04T15:50:45.611+03:00 ERROR 18667 --- [Test worker] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in by.itacademy.spring.mapper.CreateUserMapper required a bean of type 'by.itacademy.spring.dto.CreateUserDto' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'by.itacademy.spring.dto.CreateUserDto' in your configuration.
+
+2023-06-04T15:51:14.958+03:00  INFO 18683 --- [Test worker] by.itacademy.integration.UserServiceIT   : Starting UserServiceIT using Java 17.0.6 with PID 18683 (started by nazar in /Users/nazar/IdeaProjects/spring-boot-hw)
+2023-06-04T15:51:14.960+03:00  INFO 18683 --- [Test worker] by.itacademy.integration.UserServiceIT   : The following 1 profile is active: "test"
+2023-06-04T15:51:15.398+03:00  INFO 18683 --- [Test worker] b.i.spring.database.pool.ConnectionPool  : Init pool
+2023-06-04T15:51:16.156+03:00  INFO 18683 --- [Test worker] b.i.spring.database.pool.ConnectionPool  : Init pool
+2023-06-04T15:51:16.165+03:00  INFO 18683 --- [Test worker] b.i.spring.database.pool.ConnectionPool  : Init pool
+2023-06-04T15:51:16.176+03:00  WARN 18683 --- [Test worker] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'createUserMapper' defined in file [/Users/nazar/IdeaProjects/spring-boot-hw/build/classes/java/main/by/itacademy/spring/mapper/CreateUserMapper.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'by.itacademy.spring.dto.CreateUserDto' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-06-04T15:51:16.198+03:00  INFO 18683 --- [Test worker] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-06-04T15:51:16.244+03:00 ERROR 18683 --- [Test worker] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in by.itacademy.spring.mapper.CreateUserMapper required a bean of type 'by.itacademy.spring.dto.CreateUserDto' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'by.itacademy.spring.dto.CreateUserDto' in your configuration.
+
+2023-06-04T15:51:51.968+03:00  INFO 18697 --- [Test worker] by.itacademy.integration.UserServiceIT   : Starting UserServiceIT using Java 17.0.6 with PID 18697 (started by nazar in /Users/nazar/IdeaProjects/spring-boot-hw)
+2023-06-04T15:51:51.970+03:00  INFO 18697 --- [Test worker] by.itacademy.integration.UserServiceIT   : The following 1 profile is active: "test"
+2023-06-04T15:51:52.424+03:00  INFO 18697 --- [Test worker] b.i.spring.database.pool.ConnectionPool  : Init pool
+2023-06-04T15:51:53.234+03:00  INFO 18697 --- [Test worker] b.i.spring.database.pool.ConnectionPool  : Init pool
+2023-06-04T15:51:53.243+03:00  INFO 18697 --- [Test worker] b.i.spring.database.pool.ConnectionPool  : Init pool
+2023-06-04T15:51:53.430+03:00  INFO 18697 --- [Test worker] by.itacademy.integration.UserServiceIT   : Started UserServiceIT in 1.785 seconds (process running for 2.842)
+2023-06-04T15:52:51.513+03:00  INFO 18723 --- [Test worker] by.itacademy.integration.UserServiceIT   : Starting UserServiceIT using Java 17.0.6 with PID 18723 (started by nazar in /Users/nazar/IdeaProjects/spring-boot-hw)
+2023-06-04T15:52:51.516+03:00  INFO 18723 --- [Test worker] by.itacademy.integration.UserServiceIT   : The following 1 profile is active: "test"
+2023-06-04T15:52:51.927+03:00  INFO 18723 --- [Test worker] b.i.spring.database.pool.ConnectionPool  : Init pool
+2023-06-04T15:52:52.741+03:00  INFO 18723 --- [Test worker] b.i.spring.database.pool.ConnectionPool  : Init pool
+2023-06-04T15:52:52.752+03:00  INFO 18723 --- [Test worker] b.i.spring.database.pool.ConnectionPool  : Init pool
+2023-06-04T15:52:52.935+03:00  INFO 18723 --- [Test worker] by.itacademy.integration.UserServiceIT   : Started UserServiceIT in 1.701 seconds (process running for 2.644)
+2023-06-04T15:53:29.019+03:00  INFO 18740 --- [Test worker] by.itacademy.integration.UserServiceIT   : Starting UserServiceIT using Java 17.0.6 with PID 18740 (started by nazar in /Users/nazar/IdeaProjects/spring-boot-hw)
+2023-06-04T15:53:29.023+03:00  INFO 18740 --- [Test worker] by.itacademy.integration.UserServiceIT   : The following 1 profile is active: "test"
+2023-06-04T15:53:29.557+03:00  INFO 18740 --- [Test worker] b.i.spring.database.pool.ConnectionPool  : Init pool
+2023-06-04T15:53:30.455+03:00  INFO 18740 --- [Test worker] b.i.spring.database.pool.ConnectionPool  : Init pool
+2023-06-04T15:53:30.461+03:00  INFO 18740 --- [Test worker] b.i.spring.database.pool.ConnectionPool  : Init pool
+2023-06-04T15:53:30.581+03:00  INFO 18740 --- [Test worker] by.itacademy.integration.UserServiceIT   : Started UserServiceIT in 1.914 seconds (process running for 3.035)
+2023-06-04T15:54:47.111+03:00  INFO 18757 --- [Test worker] by.itacademy.integration.UserServiceIT   : Starting UserServiceIT using Java 17.0.6 with PID 18757 (started by nazar in /Users/nazar/IdeaProjects/spring-boot-hw)
+2023-06-04T15:54:47.114+03:00  INFO 18757 --- [Test worker] by.itacademy.integration.UserServiceIT   : The following 1 profile is active: "test"
+2023-06-04T15:54:47.539+03:00  INFO 18757 --- [Test worker] b.i.spring.database.pool.ConnectionPool  : Init pool
+2023-06-04T15:54:48.263+03:00  INFO 18757 --- [Test worker] b.i.spring.database.pool.ConnectionPool  : Init pool
+2023-06-04T15:54:48.270+03:00  INFO 18757 --- [Test worker] b.i.spring.database.pool.ConnectionPool  : Init pool
+2023-06-04T15:54:48.430+03:00  INFO 18757 --- [Test worker] by.itacademy.integration.UserServiceIT   : Started UserServiceIT in 1.639 seconds (process running for 2.595)
+2023-06-04T15:56:04.462+03:00  INFO 18783 --- [Test worker] by.itacademy.integration.UserServiceIT   : Starting UserServiceIT using Java 17.0.6 with PID 18783 (started by nazar in /Users/nazar/IdeaProjects/spring-boot-hw)
+2023-06-04T15:56:04.467+03:00  INFO 18783 --- [Test worker] by.itacademy.integration.UserServiceIT   : The following 1 profile is active: "test"
+2023-06-04T15:56:04.887+03:00  INFO 18783 --- [Test worker] b.i.spring.database.pool.ConnectionPool  : Init pool
+2023-06-04T15:56:05.618+03:00  INFO 18783 --- [Test worker] b.i.spring.database.pool.ConnectionPool  : Init pool
+2023-06-04T15:56:05.627+03:00  INFO 18783 --- [Test worker] b.i.spring.database.pool.ConnectionPool  : Init pool
+2023-06-04T15:56:05.805+03:00  INFO 18783 --- [Test worker] by.itacademy.integration.UserServiceIT   : Started UserServiceIT in 1.668 seconds (process running for 2.567)
+2023-06-04T15:59:07.816+03:00  INFO 18870 --- [Test worker] by.itacademy.integration.UserServiceIT   : Starting UserServiceIT using Java 17.0.6 with PID 18870 (started by nazar in /Users/nazar/IdeaProjects/spring-boot-hw)
+2023-06-04T15:59:07.819+03:00  INFO 18870 --- [Test worker] by.itacademy.integration.UserServiceIT   : The following 1 profile is active: "test"
+2023-06-04T15:59:08.252+03:00  INFO 18870 --- [Test worker] b.i.spring.database.pool.ConnectionPool  : Init pool
+2023-06-04T15:59:08.256+03:00  INFO 18870 --- [Test worker] b.i.spring.database.pool.ConnectionPool  : Init pool
+2023-06-04T15:59:08.257+03:00  INFO 18870 --- [Test worker] b.i.spring.database.pool.ConnectionPool  : Init pool
+2023-06-04T15:59:08.346+03:00  INFO 18870 --- [Test worker] by.itacademy.integration.UserServiceIT   : Started UserServiceIT in 0.867 seconds (process running for 1.797)
+2023-06-04T16:00:01.754+03:00  INFO 18889 --- [Test worker] by.itacademy.integration.UserServiceIT   : Starting UserServiceIT using Java 17.0.6 with PID 18889 (started by nazar in /Users/nazar/IdeaProjects/spring-boot-hw)
+2023-06-04T16:00:01.757+03:00  INFO 18889 --- [Test worker] by.itacademy.integration.UserServiceIT   : The following 1 profile is active: "test"
+2023-06-04T16:00:02.223+03:00  INFO 18889 --- [Test worker] b.i.spring.database.pool.ConnectionPool  : Init pool
+2023-06-04T16:00:02.226+03:00  INFO 18889 --- [Test worker] b.i.spring.database.pool.ConnectionPool  : Init pool
+2023-06-04T16:00:02.227+03:00  INFO 18889 --- [Test worker] b.i.spring.database.pool.ConnectionPool  : Init pool
+2023-06-04T16:00:02.315+03:00  INFO 18889 --- [Test worker] by.itacademy.integration.UserServiceIT   : Started UserServiceIT in 0.826 seconds (process running for 1.702)
+2023-06-04T16:01:08.399+03:00  INFO 18923 --- [Test worker] by.itacademy.integration.UserServiceIT   : Starting UserServiceIT using Java 17.0.6 with PID 18923 (started by nazar in /Users/nazar/IdeaProjects/spring-boot-hw)
+2023-06-04T16:01:08.401+03:00  INFO 18923 --- [Test worker] by.itacademy.integration.UserServiceIT   : The following 1 profile is active: "test"
+2023-06-04T16:01:08.852+03:00  INFO 18923 --- [Test worker] b.i.spring.database.pool.ConnectionPool  : Init pool
+2023-06-04T16:01:08.855+03:00  INFO 18923 --- [Test worker] b.i.spring.database.pool.ConnectionPool  : Init pool
+2023-06-04T16:01:08.857+03:00  INFO 18923 --- [Test worker] b.i.spring.database.pool.ConnectionPool  : Init pool
+2023-06-04T16:01:08.943+03:00  INFO 18923 --- [Test worker] by.itacademy.integration.UserServiceIT   : Started UserServiceIT in 0.872 seconds (process running for 1.959)
+2023-06-04T16:02:11.976+03:00  INFO 18943 --- [Test worker] by.itacademy.integration.UserServiceIT   : Starting UserServiceIT using Java 17.0.6 with PID 18943 (started by nazar in /Users/nazar/IdeaProjects/spring-boot-hw)
+2023-06-04T16:02:11.978+03:00  INFO 18943 --- [Test worker] by.itacademy.integration.UserServiceIT   : The following 1 profile is active: "test"
+2023-06-04T16:02:12.396+03:00  INFO 18943 --- [Test worker] b.i.spring.database.pool.ConnectionPool  : Init pool
+2023-06-04T16:02:12.399+03:00  INFO 18943 --- [Test worker] b.i.spring.database.pool.ConnectionPool  : Init pool
+2023-06-04T16:02:12.401+03:00  INFO 18943 --- [Test worker] b.i.spring.database.pool.ConnectionPool  : Init pool
+2023-06-04T16:02:12.482+03:00  INFO 18943 --- [Test worker] by.itacademy.integration.UserServiceIT   : Started UserServiceIT in 0.837 seconds (process running for 1.785)
+2023-06-04T16:02:40.906+03:00  INFO 18960 --- [Test worker] by.itacademy.integration.UserServiceIT   : Starting UserServiceIT using Java 17.0.6 with PID 18960 (started by nazar in /Users/nazar/IdeaProjects/spring-boot-hw)
+2023-06-04T16:02:40.909+03:00  INFO 18960 --- [Test worker] by.itacademy.integration.UserServiceIT   : The following 1 profile is active: "test"
+2023-06-04T16:02:41.425+03:00  INFO 18960 --- [Test worker] b.i.spring.database.pool.ConnectionPool  : Init pool
+2023-06-04T16:02:41.430+03:00  INFO 18960 --- [Test worker] b.i.spring.database.pool.ConnectionPool  : Init pool
+2023-06-04T16:02:41.432+03:00  INFO 18960 --- [Test worker] b.i.spring.database.pool.ConnectionPool  : Init pool
+2023-06-04T16:02:48.097+03:00  INFO 18966 --- [Test worker] by.itacademy.integration.UserServiceIT   : Starting UserServiceIT using Java 17.0.6 with PID 18966 (started by nazar in /Users/nazar/IdeaProjects/spring-boot-hw)
+2023-06-04T16:02:48.100+03:00  INFO 18966 --- [Test worker] by.itacademy.integration.UserServiceIT   : The following 1 profile is active: "test"
+2023-06-04T16:02:48.599+03:00  INFO 18966 --- [Test worker] b.i.spring.database.pool.ConnectionPool  : Init pool
+2023-06-04T16:02:48.603+03:00  INFO 18966 --- [Test worker] b.i.spring.database.pool.ConnectionPool  : Init pool
+2023-06-04T16:02:48.605+03:00  INFO 18966 --- [Test worker] b.i.spring.database.pool.ConnectionPool  : Init pool
+2023-06-04T16:02:48.717+03:00  INFO 18966 --- [Test worker] by.itacademy.integration.UserServiceIT   : Started UserServiceIT in 0.967 seconds (process running for 2.066)

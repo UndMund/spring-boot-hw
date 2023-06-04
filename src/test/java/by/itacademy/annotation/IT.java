@@ -3,6 +3,7 @@ package by.itacademy.annotation;
 
 import by.itacademy.TestApplicationRunner;
 import by.itacademy.spring.ApplicationRunner;
+import by.itacademy.testConfig.TestConfig;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ActiveProfiles;
 
@@ -14,6 +15,6 @@ import java.lang.annotation.Target;
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
 @ActiveProfiles("test")
-@SpringBootTest(classes = {TestApplicationRunner.class, ApplicationRunner.class})
+@SpringBootTest(classes = {TestConfig.class, ApplicationRunner.class})
 public @interface IT {
 }
