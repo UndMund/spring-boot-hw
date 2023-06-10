@@ -17,8 +17,8 @@ import java.util.Optional;
 public class UserService {
     private final UserRepository userRepository;
     private final UserMapper userMapper;
-    public Optional<UserDto> createUser(@Valid CreateUserDto userDto) {
+   /* public Optional<UserDto> createUser(@Valid CreateUserDto userDto) {
         return userRepository.createUser(userMapper.toUser(userDto))
                 .map(userMapper::toUserDto);
-    }
+    }*/
 }

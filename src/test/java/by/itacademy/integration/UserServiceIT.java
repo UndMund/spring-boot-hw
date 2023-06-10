@@ -20,7 +20,7 @@ public class UserServiceIT {
     void setUp(@Qualifier("createUserDto") CreateUserDto readUserDto) {
         this.createUserDto = readUserDto;
     }
-    @Test
+    /*@Test
     void addUserTest() {
         var optionalUserDto = userService.createUser(createUserDto);
         assertThat(optionalUserDto).isPresent();
@@ -29,5 +29,5 @@ public class UserServiceIT {
                 assertThat(userDto.getLastname()).isEqualTo(createUserDto.getLastname());
                 assertThat(userDto.getLogin()).isEqualTo(createUserDto.getLogin());
         });
-    }
+    }*/
 }

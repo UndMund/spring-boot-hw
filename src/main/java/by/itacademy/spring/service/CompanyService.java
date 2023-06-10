@@ -19,11 +19,11 @@ public class CompanyService {
         this.eventPublisher = eventPublisher;
     }
 
-    public Optional<CompanyReadDto> findById(Integer id) {
+    /*public Optional<CompanyReadDto> findById(Integer id) {
         return companyRepository.findById(id)
                 .map(entity -> {
                     eventPublisher.publishEvent(new EntityEvent(entity, AccessType.DELETE));
                     return new CompanyReadDto(entity.id());
                 });
-    }
+    }*/
 }

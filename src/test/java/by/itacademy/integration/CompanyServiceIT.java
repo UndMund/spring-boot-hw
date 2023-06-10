@@ -19,7 +19,7 @@ public class CompanyServiceIT {
     private final CompanyService companyService;
     private final DatabaseProperties databaseProperties;
 
-    @Test
+    /*@Test
     void findById() {
         var actualResult = companyService.findById(COMPANY_ID);
         assertTrue(actualResult.isPresent());
@@ -27,5 +27,5 @@ public class CompanyServiceIT {
         var expectedResult = new CompanyReadDto(COMPANY_ID);
 
         actualResult.ifPresent(actual -> assertEquals(expectedResult, actual));
-    }
+    }*/
 }

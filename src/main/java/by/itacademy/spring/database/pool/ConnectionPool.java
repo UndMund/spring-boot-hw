@@ -8,7 +8,6 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 @Slf4j
-@Component
 @ToString
 public class ConnectionPool {
     private String username;
@@ -26,7 +25,7 @@ public class ConnectionPool {
         this.url = url;
     }
 
-    @PostConstruct
+
     private void init() {
         log.info("Init pool");
     }

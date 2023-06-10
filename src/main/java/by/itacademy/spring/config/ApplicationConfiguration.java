@@ -9,16 +9,6 @@ import org.springframework.context.annotation.*;
 @Configuration
 public class ApplicationConfiguration {
 
-    @Bean("connectionPool2")
-    @Scope(BeanDefinition.SCOPE_SINGLETON)
-    public ConnectionPool connectionPool2() {
-        return new ConnectionPool("postgres", "root", 20, "url");
-    }
-
-    @Bean("connectionPool3")
-    public ConnectionPool connectionPool3() {
-        return new ConnectionPool("msql", "root", 1, "url");
-    }
 
 //    @Bean
 //    public UserRepository userRepository2(ConnectionPool connectionPool2) {
